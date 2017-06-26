@@ -95,6 +95,13 @@ draft-rquattle-spinel-basis.xml: \
 	spinel-basis-security-considerations.md \
 	$(NULL)
 
+draft-rquattle-spinel-thread.xml: \
+	draft-rquattle-spinel-thread.md \
+	spinel-thread-iana-considerations.md \
+	spinel-thread-overview-of-extensions.md \
+	spinel-thread-security-considerations.md \
+	$(NULL)
+
 draft-rquattle-spinel-unified.xml: \
 	draft-rquattle-spinel-unified.md \
 	spinel-basis-appendix-framing.md \

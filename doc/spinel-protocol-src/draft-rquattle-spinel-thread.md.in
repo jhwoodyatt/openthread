@@ -55,13 +55,19 @@ This document specifies a specialization of the Spinel protocol for use with Thr
 
 # Introduction #
 
-Insert verbiage here.
+Whereas the general basis of the Spinel protocol is specified in [I-D.rquattle-spinel-basis](https://github.com/openthread/openthread/blob/master/doc/draft-rquattle-spinel-thread.html), this document specifies a distinguished specialization of Spinel for use with Thread(R) network interfaces. Extensions to the Spinel basis protocol are used to define new status codes, properties, capabilities and other property values, as necessary, for operating system (OS) implementations to use network co-processor (NCP) devices to implement IPv6 interfaces to Thread(R) mesh networks.
 
 ## Requirements Language and Conventions
 
-(EDITOR: Insert boilerplate about RFC 2119 here.)
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [@!RFC2119].
 
 The layout diagrams in this document that show encodings of data in octet sequences use the convention described in Guide for Internet Standards Writers [@?RFC2360] section 3.1, Packet Diagrams. Specifically, bits in octets are indexed from most significant to least significant, and the least significant bit in a field representing an integer value more than one bit in length is the least significant bit of a the signed or unsigned number, as the case requires.
+
+{{spinel-thread-overview-of-extensions.md}}
+
+{{spinel-thread-security-considerations.md}}
+
+{{spinel-thread-iana-considerations.md}}
 
 {backmatter}
 
