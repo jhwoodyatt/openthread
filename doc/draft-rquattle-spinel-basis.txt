@@ -5,7 +5,7 @@
 Network Working Group                                     R. Quattlebaum
 Internet-Draft                                               j. woodyatt
 Intended status: Standards Track                         Nest Labs, Inc.
-Expires: December 31, 2017                                 June 29, 2017
+Expires: December 29, 2017                                 June 27, 2017
 
 
   Spinel: A protocol basis for control and management of IPv6 network
@@ -38,7 +38,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on December 31, 2017.
+   This Internet-Draft will expire on December 29, 2017.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 1]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 1]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -104,12 +104,12 @@ Table of Contents
      5.15. CMD 23: (NCP -> OS) CMD_PROP_VALUES_ARE . . . . . . . . .  21
    6.  Status Codes  . . . . . . . . . . . . . . . . . . . . . . . .  22
    7.  Properties  . . . . . . . . . . . . . . . . . . . . . . . . .  25
-     7.1.  Property Identifiers  . . . . . . . . . . . . . . . . . .  26
+     7.1.  Property Identifiers  . . . . . . . . . . . . . . . . . .  25
      7.2.  Property Identifier Sections  . . . . . . . . . . . . . .  26
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 2]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 2]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -165,7 +165,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 3]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 3]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -221,7 +221,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 4]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 4]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -277,7 +277,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 5]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 5]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -333,7 +333,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 6]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 6]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -389,7 +389,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 7]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 7]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -445,7 +445,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 8]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 8]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -501,7 +501,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017               [Page 9]
+Quattlebaum & woodyatt  Expires December 29, 2017               [Page 9]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -557,7 +557,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 10]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 10]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -613,7 +613,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 11]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 11]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -669,7 +669,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 12]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 12]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -725,7 +725,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 13]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 13]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -781,7 +781,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 14]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 14]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -837,7 +837,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 15]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 15]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -893,7 +893,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 16]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 16]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -949,7 +949,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 17]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 17]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1005,7 +1005,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 18]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 18]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1061,7 +1061,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 19]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 19]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1117,7 +1117,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 20]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 20]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1173,7 +1173,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 21]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 21]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1229,7 +1229,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 22]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 22]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1285,7 +1285,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 23]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 23]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1310,9 +1310,6 @@ Internet-Draft                Spinel Basis                     June 2017
    |        |                                   | internal buffer.     |
    | 17     | "STATUS_NO_ACK"                   | The packet was not   |
    |        |                                   | acknowledged.        |
-   | 18     | "STATUS_CCA_FAILURE"              | The packet was not   |
-   |        |                                   | sent due to a CCA    |
-   |        |                                   | failure.             |
    | 19     | "STATUS_ALREADY"                  | The operation is     |
    |        |                                   | already in progress, |
    |        |                                   | or the property      |
@@ -1338,24 +1335,24 @@ Internet-Draft                Spinel Basis                     June 2017
    |        |                                   | property not         |
    |        |                                   | respected.           |
    | 118    | "STATUS_RESET_OTHER"              | Unspecified cause.   |
+   | 119    | "STATUS_RESET_UNKNOWN"            | Failure while        |
+   |        |                                   | recovering cause of  |
+   |        |                                   | reset.               |
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 24]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 24]
 
 Internet-Draft                Spinel Basis                     June 2017
 
 
-   | 119    | "STATUS_RESET_UNKNOWN"            | Failure while        |
-   |        |                                   | recovering cause of  |
-   |        |                                   | reset.               |
    | 120    | "STATUS_RESET_WATCHDOG"           | Software failed to   |
    |        |                                   | make sufficient      |
    |        |                                   | progress.            |
    +--------+-----------------------------------+----------------------+
 
-   EDITOR: The "STATUS_CCA_FAILURE" status is a technology-specific
-   status code.  Should not be in the basis protocol.
+   Note: status code 18 is not assigned in the basis protocol, but its
+   assignment is expected in the Spinel for Thread(R) specification.
 
 7.  Properties
 
@@ -1390,23 +1387,20 @@ Internet-Draft                Spinel Basis                     June 2017
    "CMD_PROP_VALUE_IS" for the "PROP_LAST_STATUS" property identifier
    with a "STATUS" value of "STATUS_PROP_NOT_FOUND".
 
-
-
-
-
-
-
-
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 25]
-
-Internet-Draft                Spinel Basis                     June 2017
-
-
 7.1.  Property Identifiers
 
    IANA maintains a registry of Spinel "PROP_ID" property identifier
    numbers, with varying registration policies assigned for different
    ranges according to the following table:
+
+
+
+
+
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 25]
+
+Internet-Draft                Spinel Basis                     June 2017
+
 
                +-----------------------+------------------+
                | Property ID Range     | Description      |
@@ -1449,17 +1443,20 @@ Internet-Draft                Spinel Basis                     June 2017
 
    EDITOR: the IANA registration template for Spinel standard properties
    identifiers requires the "Section Name" and "Range Identifier"
+   parameters to facilitate the assignment of a suitable number from the
+   appropriate range.
 
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 26]
+
+
+
+
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 26]
 
 Internet-Draft                Spinel Basis                     June 2017
 
-
-   parameters to facilitate the assignment of a suitable number from the
-   appropriate range.
 
 7.3.  Core Properties
 
@@ -1506,16 +1503,16 @@ Internet-Draft                Spinel Basis                     June 2017
 
    The OS MUST use NLI 0 with commands using this property.  The NCP
    SHOULD NOT process commands using this property if NLI is not zero.
+   The operational semantics of this property when NLI is not zero are
+   not specified.
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 27]
+
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 27]
 
 Internet-Draft                Spinel Basis                     June 2017
 
-
-   The operational semantics of this property when NLI is not zero are
-   not specified.
 
 7.3.2.1.  Major Version Number
 
@@ -1565,7 +1562,10 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 28]
+
+
+
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 28]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1621,7 +1621,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 29]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 29]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1677,7 +1677,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 30]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 30]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1685,11 +1685,7 @@ Internet-Draft                Spinel Basis                     June 2017
                                             `CMD_PROP_VALUES_ARE`.
 
    12 | "CAP_UNSOL_UPDATE_FILTER" | Support for
-   "PROP_UNSOL_UPDATE_FILTER" and "PROP_UNSOL_UPDATE_LIST".  48 |
-   "CAP_ROLE_ROUTER" | EDITOR: to be provided.  49 | "CAP_ROLE_SLEEPY" |
-   EDITOR: to be provided.  512 | "CAP_MAC_WHITELIST" | EDITOR: to be
-   provided.  513 | "CAP_MAC_RAW" | EDITOR: to be provided.  514 |
-   "CAP_OOB_STEERING_DATA" | EDITOR: to be provided.
+   "PROP_UNSOL_UPDATE_FILTER" and "PROP_UNSOL_UPDATE_LIST".
 
 7.3.7.  PROP 6: PROP_INTERFACE_COUNT
 
@@ -1733,7 +1729,11 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 31]
+
+
+
+
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 31]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1789,7 +1789,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 32]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 32]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1845,7 +1845,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 33]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 33]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1901,7 +1901,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 34]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 34]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -1957,7 +1957,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 35]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 35]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2013,7 +2013,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 36]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 36]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2069,7 +2069,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 37]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 37]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2125,7 +2125,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 38]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 38]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2181,7 +2181,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 39]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 39]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2237,7 +2237,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 40]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 40]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2293,7 +2293,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 41]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 41]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2349,7 +2349,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 42]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 42]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2405,7 +2405,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 43]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 43]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2461,7 +2461,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 44]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 44]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2517,7 +2517,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 45]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 45]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2573,7 +2573,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 46]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 46]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2629,7 +2629,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 47]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 47]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2685,7 +2685,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 48]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 48]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2741,7 +2741,7 @@ Internet-Draft                Spinel Basis                     June 2017
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 49]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 49]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2797,7 +2797,7 @@ A.1.  NCP Initialization
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 50]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 50]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2853,7 +2853,7 @@ A.4.  Attaching to a saved network
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 51]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 51]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2909,7 +2909,7 @@ B.1.1.  UART Bit Rate Detection
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 52]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 52]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -2965,7 +2965,7 @@ B.1.2.  HDLC-Lite
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 53]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 53]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -3021,7 +3021,7 @@ B.2.  SPI Recommendations
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 54]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 54]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -3077,7 +3077,7 @@ B.2.1.  SPI Framing Protocol
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 55]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 55]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -3133,7 +3133,7 @@ B.3.  I2C Recommendations
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 56]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 56]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -3189,7 +3189,7 @@ C.3.  Test Vector: Reset Notification
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 57]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 57]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -3245,7 +3245,7 @@ Appendix E.  Acknowledgments
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 58]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 58]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -3301,7 +3301,7 @@ Editorial Comments
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 59]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 59]
 
 Internet-Draft                Spinel Basis                     June 2017
 
@@ -3357,4 +3357,4 @@ Authors' Addresses
 
 
 
-Quattlebaum & woodyatt  Expires December 31, 2017              [Page 60]
+Quattlebaum & woodyatt  Expires December 29, 2017              [Page 60]

@@ -133,11 +133,6 @@ Code    | Name                      | Description
   11    | `CAP_CMD_MULTI`           | Support for `CMD_PROP_VALUE_MULTI_GET`, `CMD_PROP_VALUE_MULTI_SET` and
                                         `CMD_PROP_VALUES_ARE`.
   12    | `CAP_UNSOL_UPDATE_FILTER` | Support for `PROP_UNSOL_UPDATE_FILTER` and `PROP_UNSOL_UPDATE_LIST`.
-  48    | `CAP_ROLE_ROUTER`         | EDITOR: to be provided.
-  49    | `CAP_ROLE_SLEEPY`         | EDITOR: to be provided.
- 512    | `CAP_MAC_WHITELIST`       | EDITOR: to be provided.
- 513    | `CAP_MAC_RAW`             | EDITOR: to be provided.
- 514    | `CAP_OOB_STEERING_DATA`   | EDITOR: to be provided.
 
 ### PROP 6: PROP_INTERFACE_COUNT {#prop-interface-count}
 

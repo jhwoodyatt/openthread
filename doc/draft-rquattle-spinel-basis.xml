@@ -42,7 +42,7 @@
 <uri></uri>
 </address>
 </author>
-<date year="2017" month="June" day="29"/>
+<date year="2017" month="June" day="27"/>
 
 <area>Internet</area>
 <workgroup></workgroup>
@@ -759,7 +759,6 @@ represent the given value.
 <c>15</c><c><spanx style="verb">STATUS_EMPTY</spanx></c><c>The result of the operation is empty.</c>
 <c>16</c><c><spanx style="verb">STATUS_CMD_TOO_BIG</spanx></c><c>The command was too large to fit in the internal buffer.</c>
 <c>17</c><c><spanx style="verb">STATUS_NO_ACK</spanx></c><c>The packet was not acknowledged.</c>
-<c>18</c><c><spanx style="verb">STATUS_CCA_FAILURE</spanx></c><c>The packet was not sent due to a CCA failure.</c>
 <c>19</c><c><spanx style="verb">STATUS_ALREADY</spanx></c><c>The operation is already in progress, or the property already has the value.</c>
 <c>20</c><c><spanx style="verb">STATUS_ITEM_NOT_FOUND</spanx></c><c>The given item could not be found in the property.</c>
 <c>21</c><c><spanx style="verb">STATUS_INVALID_COMMAND_FOR_PROP</spanx></c><c>The given command cannot be performed on this property.</c>
@@ -773,7 +772,7 @@ represent the given value.
 <c>119</c><c><spanx style="verb">STATUS_RESET_UNKNOWN</spanx></c><c>Failure while recovering cause of reset.</c>
 <c>120</c><c><spanx style="verb">STATUS_RESET_WATCHDOG</spanx></c><c>Software failed to make sufficient progress.</c>
 </texttable>
-<t>EDITOR: The <spanx style="verb">STATUS_CCA_FAILURE</spanx> status is a technology-specific status code. Should not be in the basis protocol.
+<t>Note: status code 18 is not assigned in the basis protocol, but its assignment is expected in the Spinel for Thread(R) specification.
 </t>
 </section>
 
@@ -1038,11 +1037,6 @@ RECOMMENDED format of the string is as follows:
                                     `CMD_PROP_VALUES_ARE`.
 </artwork></figure>
 <t>12    | <spanx style="verb">CAP_UNSOL_UPDATE_FILTER</spanx> | Support for <spanx style="verb">PROP_UNSOL_UPDATE_FILTER</spanx> and <spanx style="verb">PROP_UNSOL_UPDATE_LIST</spanx>.
-  48    | <spanx style="verb">CAP_ROLE_ROUTER</spanx>         | EDITOR: to be provided.
-  49    | <spanx style="verb">CAP_ROLE_SLEEPY</spanx>         | EDITOR: to be provided.
- 512    | <spanx style="verb">CAP_MAC_WHITELIST</spanx>       | EDITOR: to be provided.
- 513    | <spanx style="verb">CAP_MAC_RAW</spanx>             | EDITOR: to be provided.
- 514    | <spanx style="verb">CAP_OOB_STEERING_DATA</spanx>   | EDITOR: to be provided.
 </t>
 </section>
 

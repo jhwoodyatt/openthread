@@ -38,7 +38,6 @@ Status Code | Name                              | Description
  15         | `STATUS_EMPTY`                    | The result of the operation is empty.
  16         | `STATUS_CMD_TOO_BIG`              | The command was too large to fit in the internal buffer.
  17         | `STATUS_NO_ACK`                   | The packet was not acknowledged.
- 18         | `STATUS_CCA_FAILURE`              | The packet was not sent due to a CCA failure.
  19         | `STATUS_ALREADY`                  | The operation is already in progress, or the property already has the value.
  20         | `STATUS_ITEM_NOT_FOUND`           | The given item could not be found in the property. 
  21         | `STATUS_INVALID_COMMAND_FOR_PROP` | The given command cannot be performed on this property.
@@ -52,4 +51,4 @@ Status Code | Name                              | Description
 119         | `STATUS_RESET_UNKNOWN`            | Failure while recovering cause of reset.
 120         | `STATUS_RESET_WATCHDOG`           | Software failed to make sufficient progress.
 
-EDITOR: The `STATUS_CCA_FAILURE` status is a technology-specific status code. Should not be in the basis protocol.
+Note: status code 18 is not assigned in the basis protocol, but its assignment is expected in the Spinel for Thread(R) specification.
