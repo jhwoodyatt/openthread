@@ -65,6 +65,8 @@ The layout diagrams in this document that show encodings of data in octet sequen
 
 {{spinel-thread-overview-of-extensions.md}}
 
+{{spinel-thread-detail-properties-tech.md}}
+
 {{spinel-thread-security-considerations.md}}
 
 {{spinel-thread-iana-considerations.md}}

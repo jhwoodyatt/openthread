@@ -9,8 +9,7 @@ Thread(R) NCPs have the following requirements:
 * The non-optional properties in the following sections **MUST** be
   implemented: CORE, PHY, MAC, NET, and IPV6.
 
-All serious implementations of an NCP **SHOULD** also support the network
-save feature (See (#feature-network-save)).
+NCP implementations **SHOULD** also support the "network save" feature (see [I-D.rquattle-spinel-basis](https://github.com/openthread/openthread/blob/master/doc/draft-rquattle-spinel-thread.html)).
 
 ## Capabilities {#thread-caps}
 
@@ -21,8 +20,7 @@ The Thread(R) technology defines the following capabilities:
 
 ## Properties {#thread-properties}
 
-Properties for Thread(R) are allocated out of the `Tech` property
-section (see (#property-sections)).
+All properties for Thread(R) are allocated out of the `Tech` property section (see [I-D.rquattle-spinel-basis](https://github.com/openthread/openthread/blob/master/doc/draft-rquattle-spinel-thread.html)).
 
 ### PROP 80: PROP_THREAD_LEADER_ADDR
 * Type: Read-Only

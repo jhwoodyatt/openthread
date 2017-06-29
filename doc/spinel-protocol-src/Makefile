@@ -97,6 +97,7 @@ draft-rquattle-spinel-basis.xml: \
 
 draft-rquattle-spinel-thread.xml: \
 	draft-rquattle-spinel-thread.md \
+	spinel-thread-detail-properties-tech.md \
 	spinel-thread-iana-considerations.md \
 	spinel-thread-overview-of-extensions.md \
 	spinel-thread-security-considerations.md \
@@ -123,6 +124,6 @@ draft-rquattle-spinel-unified.xml: \
 	spinel-prop-phy.md \
 	spinel-prop.md \
 	spinel-status-codes.md \
-	spinel-tech-thread.md \
 	spinel-test-vectors.md \
+	spinel-thread-detail-properties-tech.md \
 	$(NULL)
