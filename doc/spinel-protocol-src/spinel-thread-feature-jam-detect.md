@@ -1,11 +1,8 @@
 # Feature: Jam Detection {#feature-jam-detect}
 
-Jamming detection is a feature that allows the NCP to report when it
-detects high levels of interference that are characteristic of intentional
-signal jamming.
+Jamming detection is a feature that allows the NCP to report when it detects high levels of interference that are characteristic of intentional signal jamming.
 
-The presence of this feature can be detected by checking for the
-presence of the `CAP_JAM_DETECT` (value 6) capability in `PROP_CAPS`.
+The presence of this feature can be detected by checking for the presence of the `CAP_JAM_DETECT` (value 6) capability in `PROP_CAPS`.
 
 ## Properties
 
@@ -20,11 +17,9 @@ Octets: |       1
 --------|-----------------
 Fields: | `PROP_JAM_DETECT_ENABLE`
 
-Indicates if jamming detection is enabled or disabled. Set to true
-to enable jamming detection.
+Indicates if jamming detection is enabled or disabled. Set to true to enable jamming detection.
 
-This property is only available if the `CAP_JAM_DETECT`
-capability is present in `PROP_CAPS`.
+This property is only available if the `CAP_JAM_DETECT` capability is present in `PROP_CAPS`.
 
 ### PROP 4609: PROP_JAM_DETECTED {#prop-jam-detected}
 
@@ -38,11 +33,9 @@ Fields: | `PROP_JAM_DETECTED`
 
 Set to true if radio jamming is detected. Set to false otherwise.
 
-When jamming detection is enabled, changes to the value of this
-property are emitted asynchronously via `CMD_PROP_VALUE_IS`.
+When jamming detection is enabled, changes to the value of this property are emitted asynchronously via `CMD_PROP_VALUE_IS`.
 
-This property is only available if the `CAP_JAM_DETECT`
-capability is present in `PROP_CAPS`.
+This property is only available if the `CAP_JAM_DETECT` capability is present in `PROP_CAPS`.
 
 ### PROP 4610: PROP_JAM_DETECT_RSSI_THRESHOLD
 
@@ -52,9 +45,7 @@ capability is present in `PROP_CAPS`.
 * Default Value: Implementation-specific
 * RECOMMENDED for `CAP_JAM_DETECT`
 
-This parameter describes the threshold RSSI level (measured in
-dBm) above which the jamming detection will consider the
-channel blocked.
+This parameter describes the threshold RSSI level (measured in dBm) above which the jamming detection will consider the channel blocked.
 
 ### PROP 4611: PROP_JAM_DETECT_WINDOW
 
@@ -64,8 +55,7 @@ channel blocked.
 * Default Value: Implementation-specific
 * RECOMMENDED for `CAP_JAM_DETECT`
 
-This parameter describes the window period for signal jamming
-detection.
+This parameter describes the window period for signal jamming detection.
 
 ### PROP 4612: PROP_JAM_DETECT_BUSY
 
@@ -75,12 +65,9 @@ detection.
 * Default Value: Implementation-specific
 * RECOMMENDED for `CAP_JAM_DETECT`
 
-This parameter describes the number of aggregate seconds within
-the detection window where the RSSI must be above
-`PROP_JAM_DETECT_RSSI_THRESHOLD` to trigger detection.
+This parameter describes the number of aggregate seconds within the detection window where the RSSI must be above `PROP_JAM_DETECT_RSSI_THRESHOLD` to trigger detection.
 
-The behavior of the jamming detection feature when `PROP_JAM_DETECT_BUSY`
-is larger than `PROP_JAM_DETECT_WINDOW` is undefined.
+The behavior of the jamming detection feature when `PROP_JAM_DETECT_BUSY` is larger than `PROP_JAM_DETECT_WINDOW` is undefined.
 
 ### PROP 4613: PROP_JAM_DETECT_HISTORY_BITMAP
 
@@ -89,12 +76,4 @@ is larger than `PROP_JAM_DETECT_WINDOW` is undefined.
 * Default Value: Implementation-specific
 * RECOMMENDED for `CAP_JAM_DETECT`
 
-This value provides information about current state of jamming detection
-module for monitoring/debugging purpose. It returns a 64-bit value where
-each bit corresponds to one second interval starting with bit 0 for the
-most recent interval and bit 63 for the oldest intervals (63 sec earlier).
-The bit is set to 1 if the jamming detection module observed/detected
-high signal level during the corresponding one second interval.
-The value is read-only and is encoded as two `L` (uint32) values in
-little-endian format (first `L` (uint32) value gives the lower bits
-corresponding to more recent history).
+This value provides information about current state of jamming detection module for monitoring/debugging purpose. It returns a 64-bit value where each bit corresponds to one second interval starting with bit 0 for the most recent interval and bit 63 for the oldest intervals (63 sec earlier). The bit is set to 1 if the jamming detection module observed/detected high signal level during the corresponding one second interval. The value is read-only and is encoded as two `L` (uint32) values in little-endian format (first `L` (uint32) value gives the lower bits corresponding to more recent history).
