@@ -61,7 +61,7 @@ $(XML2RFC_CACHE_DIR):
 
 %.xml: %.md
 	$(MMARK) -xml2 -page $< $@
-	$(SED) -i "" -e 's/fullname="James Woodyatt"/fullname="James Woodyatt" role="editor"/' $@
+	$(SED) -i "" -e 's/fullname="james woodyatt"/fullname="james woodyatt" role="editor"/' $@
 
 %.html: %.xml $(XML2RFC_CACHE_DIR)
 	$(XML2RFC) --html $<

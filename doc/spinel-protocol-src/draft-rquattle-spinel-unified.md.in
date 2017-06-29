@@ -32,9 +32,9 @@
     
     [[author]]
     role            = "editor"
-    initials        = "J.H."
-    surname         = "Woodyatt"
-    fullname        = "James Woodyatt"
+    initials        = "j."
+    surname         = "woodyatt"
+    fullname        = "james woodyatt"
     organization    = "Nest Labs, Inc."
     
         [author.address]
@@ -166,8 +166,8 @@ goal.
 
 Thread is a registered trademark of The Thread Group, Inc.
 
-Special thanks to Nick Banks, Jonathan Hui, Abtin Keshavarzian, Yakun Xu,
-Piotr Szkotak, Arjuna Sivasithambaresan and Martin Turon for their
+Special thanks to Nick Banks, Jonathan Hui, Abtin Keshavarzian, Arjuna
+Sivasithambaresan, Piotr Szkotak, Martin Turon and Yukan Xu for their
 substantial contributions and feedback related to this document.
 
 This document was prepared using [mmark](https://github.com/miekg/mmark)
