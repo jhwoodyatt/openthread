@@ -65,6 +65,10 @@ The layout diagrams in this document that show encodings of data in octet sequen
 
 {{spinel-thread-overview-of-extensions.md}}
 
+{{spinel-thread-detail-properties-phy.md}}
+
+{{spinel-thread-detail-properties-mac.md}}
+
 {{spinel-thread-detail-properties-tech.md}}
 
 {{spinel-thread-feature-jam-detect.md}}

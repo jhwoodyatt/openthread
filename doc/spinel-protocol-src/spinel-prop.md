@@ -47,9 +47,9 @@ allocated from the former range.
 
 {{spinel-prop-core.md}}
 
-{{spinel-prop-phy.md}}
+{{spinel-thread-detail-properties-phy.md}}
 
-{{spinel-prop-mac.md}}
+{{spinel-thread-detail-properties-mac.md}}
 
 {{spinel-prop-net.md}}
 

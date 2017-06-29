@@ -97,6 +97,8 @@ draft-rquattle-spinel-basis.xml: \
 
 draft-rquattle-spinel-thread.xml: \
 	draft-rquattle-spinel-thread.md \
+	spinel-thread-detail-properties-mac.md \
+	spinel-thread-detail-properties-phy.md \
 	spinel-thread-detail-properties-tech.md \
 	spinel-thread-feature-jam-detect.md \
 	spinel-thread-iana-considerations.md \
@@ -118,13 +120,13 @@ draft-rquattle-spinel-unified.xml: \
 	spinel-basis-intro-frames.md \
 	spinel-example-sessions.md \
 	spinel-prop-core.md \
-	spinel-prop-mac.md \
 	spinel-prop-net.md \
 	spinel-prop-overview.md \
-	spinel-prop-phy.md \
 	spinel-prop.md \
 	spinel-status-codes.md \
 	spinel-test-vectors.md \
+	spinel-thread-detail-properties-mac.md \
+	spinel-thread-detail-properties-phy.md \
 	spinel-thread-detail-properties-tech.md \
 	spinel-thread-feature-jam-detect.md \
 	$(NULL)
